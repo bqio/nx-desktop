@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+    <title>NX Desktop</title>
+    <link rel="stylesheet" href="./icons8/1.3.0/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <ul class="sidebar-menu">
+          <li id="menu_games_link">
+            <i class="las la-gamepad"></i><span id="menu_games">Games</span>
+          </li>
+          <li id="menu_repos_link">
+            <i class="las la-book"></i><span id="menu_repos">Repository</span>
+          </li>
+          <li id="menu_downloads_link">
+            <i class="las la-download"></i
+            ><span id="menu_downloads">Downloads</span>
+          </li>
+          <li id="menu_settings_link">
+            <i class="las la-cog"></i><span id="menu_settings">Settings</span>
+          </li>
+        </ul>
+        <div class="sidebar-info">
+          v.1.0.0 /
+          <a href="https://icons8.com/line-awesome" target="_blank">icons8</a>
+        </div>
+      </div>
+      <div class="content">
+        <div class="wrapper" id="wrapper"></div>
+      </div>
+    </main>
+    <template id="games_page">
+      <div class="info">
+        <i class="las la-info-circle"></i>
+        <span id="info_games_not_found">
+          Games not found. Add a new repository.
+        </span>
+      </div>
+    </template>
+    <template id="repos_page">
+      <h2 class="head">repos_page</h2>
+    </template>
+    <template id="downloads_page">
+      <div class="info">
+        <i class="las la-download"></i>
+        <span id="info_downloads_not_found">Downloads not found.</span>
+      </div>
+    </template>
+    <template id="settings_page">
+      <h2 class="head">settings_page</h2>
+    </template>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

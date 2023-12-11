@@ -1,0 +1,8 @@
+{
+  "menu_games": "Games",
+  "menu_repos": "Repositories",
+  "menu_downloads": "Downloads",
+  "menu_settings": "Settings",
+  "info_games_not_found": "Games not found. Add a new repository.",
+  "info_downloads_not_found": "Downloads not found."
+}

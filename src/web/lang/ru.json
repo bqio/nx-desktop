@@ -1,0 +1,8 @@
+{
+  "menu_games": "Игры",
+  "menu_repos": "Репозиторий",
+  "menu_downloads": "Загрузки",
+  "menu_settings": "Настройки",
+  "info_games_not_found": "Игры не найдены. Добавьте новый репозиторий.",
+  "info_downloads_not_found": "Загрузки не найдены."
+}

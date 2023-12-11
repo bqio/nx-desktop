@@ -1,0 +1,16 @@
+{
+  "name": "nx-desktop",
+  "version": "1.0.0",
+  "description": "Nintendo Switch games library.",
+  "main": "./src/main.cjs",
+  "scripts": {
+    "dev": "set NODE_ENV=development&&electron ."
+  },
+  "keywords": [],
+  "author": "bqio",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
